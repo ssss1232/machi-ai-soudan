@@ -204,6 +204,14 @@
       opacity: 0.7;
     }
 
+    .btn-secondary.btn-line-active {
+      cursor: pointer;
+      opacity: 1;
+      color: #06C755 !important;
+      border-color: #06C755 !important;
+      font-weight: 700 !important;
+    }
+
     /* ===== SECTION BASE ===== */
     section {
       padding: 80px 24px;
@@ -581,6 +589,19 @@
       opacity: 0.7;
     }
 
+    .btn-line-active {
+      opacity: 1;
+      color: #06C755 !important;
+      border-color: #06C755 !important;
+      font-weight: 700 !important;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .btn-line-active:hover {
+      background: #f0fff4 !important;
+      transform: translateY(-2px);
+    }
+
     /* ===== FOOTER ===== */
     footer {
       background: var(--text-main);
@@ -733,9 +754,9 @@
     <a href="mailto:260601.local.ai.support@gmail.com" class="btn-primary">
       ✉️ メールで無料相談
     </a>
-    <span class="btn-secondary">
-      💬 LINEで相談（準備中）
-    </span>
+    <a href="https://lin.ee/7o8HDHR" target="_blank" rel="noopener" class="btn-secondary btn-line-active">
+      💬 LINEで相談
+    </a>
   </div>
 </section>
 
@@ -892,9 +913,9 @@
       <a href="mailto:260601.local.ai.support@gmail.com" class="btn-contact-mail">
         ✉️ メールで無料相談<br><small style="font-weight:400;font-size:0.75rem;opacity:0.85;">260601.local.ai.support@gmail.com</small>
       </a>
-      <span class="btn-contact-line">
-        💬 LINEで相談（準備中）
-      </span>
+      <a href="https://lin.ee/7o8HDHR" target="_blank" rel="noopener" class="btn-contact-line btn-line-active">
+        💬 LINEで相談
+      </a>
     </div>
   </div>
 </section>
